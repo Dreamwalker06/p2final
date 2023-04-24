@@ -16,6 +16,13 @@
 body {
     display: flex;
     justify-content: center;
+    margin: 0 auto;
+
+}
+
+header {
+    width: 1440px;
+    height: 79px;
 }
 
 .main-container {
@@ -56,16 +63,14 @@ body {
 
 .menu-nav {
     display: flex;
-    justify-content: flex-end;
+    position:relative;
+    Left:1111.09px;
     list-style-type: none;
-    position: absolute;
-    left: 0px;
-    right: 42px;
-    top: 0px;
+    max-width: 1440px;
+    top:16px;
 }
 
 .menu-txt {
-    color: #0065FC;
     padding-right: 69px;
 }
 
@@ -76,20 +81,22 @@ body {
 
 .menu-nav a:hover {
     border-top: 2px solid #0065FC;
-    padding-top: 10px;
+    padding-top: 13px;
+    color: #0065FC;
+    
 }
 
 .logo {
-    position: absolute;
-    width: 61.09px;
-    height: 19px;
-    left: 30px;
-    top: 30px;
+    max-width:61px; 
+    max-height:19px; 
+    position:relative;
+    left: -20px
+    
 }
 /****** Headline ***********/
 
 .headline {
-    margin-top: 60px;
+    margin-top: 90px;
 }
 
 .headline h1 {
@@ -111,21 +118,36 @@ form {
     max-width: 600px;
     padding-top: 35px;
   }
-  
+
   form input[type="text"] {
-    border: 1px solid #ccc;
+    border-top: 1px solid #F2F2F2;
+    border-bottom: 1px solid #F2F2F2;
+    border-left: transparent ;
+    border-right: transparent ;
+    padding: 12px 20px;
+    font-weight: bold;
+    font-size: 20px
   }
   
   form button[type="submit"] {
     background-color: #0065FC;
     color: #fff;
     border: none;
-    border-radius: 5px;
+    padding: 13px 20px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-weight: bold;
+    font-size: 20px
   }
   
   form .fa-location-dot {
     color:black;
     background-color: #F2F2F2;;
+    padding: 15px 18px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    font-size: 20px
+    
   }
 
 /****** Filtres ***********/
@@ -181,6 +203,10 @@ form {
     padding-top: 50px;
 }
 
+.hebergements-and-populaires a {
+    text-decoration: none;
+    color: black;
+}
 .hebergements-and-populaires section {
     background-color: var(--main-bg-color);
     border-radius: 20px;
@@ -201,6 +227,10 @@ form {
 .hebergements-cards .card {
     width: 31%;
     display: inline-block;
+    margin-right: 3px;
+    margin-top: 3px;
+    margin-bottom: 30px;
+    margin-left: 3px;
 }
 
 .hebergements img {
@@ -218,6 +248,7 @@ form {
 .hebergements .card-rating{
     padding-left: 15px;
 }
+
 /****** Populaires ***********/
 .populaires {
     width: 32%;
@@ -302,6 +333,10 @@ form {
     object-fit: cover;
 }
 
+.afficherplus-txt {
+    margin-top: -20px;
+    font-weight: bold;
+}
 /****** Footer ***********/
 footer {
     display: flex;
@@ -362,9 +397,41 @@ li {
     .populaires-cards .card-subtitle {
         font-size: 13px;
     }
+    /*NAV   */
+    .logo {
+        position: static
+
+    }
+
+    .menu-nav {
+        position: relative;
+        left: 680px;
+    }
+    
+    .headline h1 {
+        font-size: 22px;
+    }
+
+    .headline p {
+        font-size: 16px;
+    }
+
+    /*Form */
+
+    
+    form input[type="text"] {
+        font-size: 18px;
+        max-width: 170px
+      }
+      
+      form button[type="submit"] , .fa-location-dot{
+        font-size: 18px
+      }
+      
 }
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
     /* ... */
 }
+
