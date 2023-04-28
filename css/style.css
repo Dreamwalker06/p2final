@@ -257,6 +257,11 @@ form {
 
 .hebergements .card-title , .card-subtitle {
     margin-left: 15px;
+    margin-top: 2px;
+    margin-bottom: 4px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .hebergements .card-rating{
@@ -517,6 +522,11 @@ li {
         margin: 0px -20px 0px -20px;
     }
 
+    .menu-nav a {
+        text-decoration: none;
+        color:black;
+        
+    }
     .menu-nav a:hover {
         border-bottom: 2px solid #0065FC;
         padding-bottom: 30px;
@@ -587,7 +597,7 @@ li {
             padding-left: 5px;
         }
         .filtre-txtt {
-            font-size: 28px;
+            font-size: 24px;
             padding-left: 5px;
         }
         .filtre1 , .filtre2 {
@@ -706,7 +716,11 @@ li {
         }
 
         .hebergements-cards .card-content {
-            margin-top: -20px;
+            margin-top: 20px;
+        }
+
+        .hebergements .card-subtitle {
+            margin-bottom: 14px;
         }
        /* activités */
        .activites {
