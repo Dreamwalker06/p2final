@@ -499,7 +499,7 @@ li {
     }
     .logo {
         position: absolute;
-        left: 50%;
+        left: 42%;
         top: 30px;
         width: 61.09px;
         height: 19px;
@@ -511,11 +511,15 @@ li {
         justify-content: space-around;
         width: 100%;
         font-size: 26px;
+        border-bottom: 2px solid #F2F2F2;;
+        padding-bottom: 20px;
+        width: calc(100% + 40px);
+        margin: 0px -20px 0px -20px;
     }
 
     .menu-nav a:hover {
         border-bottom: 2px solid #0065FC;
-        padding-bottom: 13px;
+        padding-bottom: 30px;
         border-top: none;
     }
     .headline {
@@ -570,18 +574,29 @@ li {
  
         .btn {
             flex-wrap: wrap;
+            gap:25px
         }
 
-        .filtre1 {
-            width: 49%;
+        .filtre1 .fa-money-bill-wave,
+        .filtre1 .fa-heart,
+        .filtre1 .fa-fire,
+        .filtre2 .fa-person {
+        font-size: 35px;
+}       
+        .filtre2 .fa-person {
+            padding-left: 5px;
         }
-
-        .filtre2 {
-            width: 49%;
+        .filtre-txtt {
+            font-size: 28px;
+            padding-left: 5px;
         }
-
         .filtre1 , .filtre2 {
-            
+            min-width: 46%;
+            justify-content: flex-start;
+            gap:15px;
+            min-height: 70px;
+            overflow: hidden;
+            border-radius: 40px;
         }
        
        /* infobar */
