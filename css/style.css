@@ -504,18 +504,18 @@ li {
     }
     .logo {
         position: absolute;
-        left: 42%;
+        left: 37%;
         top: 30px;
         width: 61.09px;
         height: 19px;
-        transform: scale(1.6);
+        transform: scale(1.4);
     }
 
     .menu-nav {
         padding-top: 100px;
         justify-content: space-around;
         width: 100%;
-        font-size: 26px;
+        font-size: 16px;
         border-bottom: 2px solid #F2F2F2;;
         padding-bottom: 20px;
         width: calc(100% + 40px);
@@ -531,18 +531,11 @@ li {
         border-bottom: 2px solid #0065FC;
         padding-bottom: 30px;
         border-top: none;
+        
     }
     .headline {
-        padding-top: 120px;
+        padding-top: 100px;
      }
-    
-    .headline h1 {
-        font-size: 32px;
-    }
-
-    .headline p {
-        font-size: 26px;
-    }
 
     /* form */
     .fa-magnifying-glass {
@@ -562,62 +555,65 @@ li {
     form input[type="text"] {
         width: 100%;
         padding: 15px 20px;
-        font-size: 26px;
+        font-size: 18px;
         
     }
     form button[type="submit"] {
         padding: 17px 20px;
         border-radius: 15px;
         font-weight: bold;
-        font-size: 26px;
+        font-size: 18px;
       }
       
       form .fa-location-dot {
         padding: 18px 22px;
-        font-size: 26px;
+        font-size: 18px;
        
        }
        /* filtres */
        .filtre-txt {
-        font-size: 32px;
+        font-size: 18px;
+        margin-top: -10px;
         }
+        
  
         .btn {
             flex-wrap: wrap;
-            gap:25px
+            gap:10px
         }
 
         .filtre1 .fa-money-bill-wave,
         .filtre1 .fa-heart,
         .filtre1 .fa-fire,
         .filtre2 .fa-person {
-        font-size: 35px;
+        font-size: 18px;
 }       
         .filtre2 .fa-person {
             padding-left: 5px;
         }
         .filtre-txtt {
-            font-size: 24px;
+            font-size: 14px;
             padding-left: 5px;
         }
         .filtre1 , .filtre2 {
-            min-width: 46%;
+            width: 48%;
             justify-content: flex-start;
-            gap:15px;
-            min-height: 70px;
+            gap:5px;
+            min-height: 50px;
             overflow: hidden;
             border-radius: 40px;
+            margin-bottom: 10px;
         }
        
        /* infobar */
        .infobar-txt {
-        font-size: 32px;
+        font-size: 16px;
        }
 
        .info-logo {
-        width: 50px;
-        height: 40px;
-        line-height: 35px;
+        width: 35px;
+        height: 30px;
+        line-height: 27px;
        }
        /* populaire & hebergement*/
        .hebergements-and-populaires {
@@ -638,11 +634,11 @@ li {
         .populaires-cards .card {
         margin-top: 10px;
         width: 102%;
-        height: 200px;
+        height: 146px;
     }
     
         .populaires-cards img {
-        width: 25%;
+        width: 35%;
         height: 100%;
         border-top-left-radius: 20px;
         border-bottom-left-radius: 20px;
@@ -652,77 +648,55 @@ li {
         .populaires-cards .card-title {
         margin-top: 10px;
         margin-bottom: 4px;
-        font-size: 26px;
+        font-size: 16px;
     }
     
         .populaires-cards .card-subtitle {
         margin: 0;
-        font-size: 24px;
+        font-size: 14px;
     }
     
         .populaires-cards .card-rating {
         margin-bottom: 5px;
     }
-        .populaires h2 {
-        font-size: 32px;
-    }
 
-        .populaires .fa-star {
-            font-size: 22px;
-        }
         section.populaires {
             border-radius: 0;
         }
 
         .fa-chart-line {
             padding-right: 10px;
-            font-size: 30px;
+            font-size: 20px;
         }
        /* hebergement */
        section.hebergements {
         background-color: white;
        }
-        .hebergements h2 {
-        font-size: 32px;
-    }        
         .hebergements {
             margin-left: -25px;
-            width: 100%;
+            width: calc(100% + 10px);
         }
         .hebergements-cards .card {
         width: 105%;
         flex-direction: column;
-        height: 350px;
+        height: 207px;
         display: flex;
     }
     
         .hebergements img {
         height: 60%;
     }
-        .hebergements h3 {
-            font-size: 28px;
-        }
-        
-        .hebergements p {
-            font-size: 24px;
-        }
-
-        .hebergements .fa-star {
-            font-size: 22px;
-        }
-
-        .afficherplus-txt {
-            font-size: 30px;
-        }
 
         .hebergements-cards .card-content {
-            margin-top: 20px;
+            margin-top: 5px;
         }
 
         .hebergements .card-subtitle {
             margin-bottom: 14px;
         }
        /* activités */
+
+
        .activites {
         flex-direction: column;
         padding-left: 50px;
@@ -732,20 +706,21 @@ li {
             width: 100%;
         }    
         .activites h4 {
-            font-size: 34px;
+            font-size: 16px;
             margin-top: 20px;
         }
         .activites-title {
         margin-left: 20px;
-        font-size: 32px;
+        font-size: 22px;
+        margin-top: 20px
 
         }
 
         .activites-card {
             
-            height: 350px;
+            height: 200px;
             margin-left: -30px;
-            min-width: 117%;
+            min-width: 110%;
             margin-bottom: 20px;
         } 
         
@@ -756,7 +731,7 @@ li {
         
         
         .activites-img {
-            height: 70%;
+            height: 80%;
         }
 
        /* footer */
@@ -767,11 +742,4 @@ li {
         margin: 65px -20px 0px -20px;
        
     }
-        footer li {
-            font-size: 26px;
-        }
-
-        footer h3 {
-            font-size: 32px;
-        }
-    }
+}
